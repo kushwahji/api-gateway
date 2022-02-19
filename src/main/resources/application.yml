@@ -54,7 +54,7 @@ spring:
 eureka:
    client:
       serviceUrl:
-         defaultZone: http://localhost:8761/eureka
+         defaultZone: https://eureka-dashboard.herokuapp.com/
    instance:
     prefer-ip-address: true
     
